@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="title">Survey Form</h1>
+        <p id="description" class="description">Thank you for taking your time to complete this survey form</p>
+      </header>
+    <form id="survey-form">
+      <div class="form-group">
+        Name:<label id="name-label"> <input id="name" type="text" required placeholder="John Doe" /></label>
+      </div>
+      <div class="form-group">
+       E-mail: <label id="email-label"> <input id="email" type="email" required placeholder="your@email.com" /></label>
+      </div>
+      <div class="form-group">
+       Age: <label id="number-label"> <input id="number" type="number" required min="13" max="120" placeholder="21" /></label>
+      </div>
+  <div class="form-group">
+    Select an option:
+    <select id="dropdown" required>
+      <option disabled selected>select one</option>
+      <option>Option 1</option>
+      <option>Option 2</option>
+    </select>
+  </div>
+  <div class="form-group">
+    Do you like this website?<label>Yes
+      <input class="radio" name="radio-button" type="radio" value="yes" />
+    </label>
+  </div>
+  <div class="form-group">
+    <label>No‎‎‎‎‏‏‎ ‎
+      <input class="radio" name="radio-button" type="radio" value="no" />
+    </label>
+  </div>
+  <div class="form-group">
+    If your answer was no , select what you disliked:<label>
+      Design<input class="radio" type="checkbox" value="Design" />
+      Readability<input class="radio" type="checkbox" value="Readability" />
+      Functionality<input class="radio" type="checkbox" value="Functionality" />
+    </label>
+  </div>
+  <p>Any comments or suggestions?</p>
+    <textarea></textarea>
+  <div class="submit">
+    <input type="submit" id="submit" class="submit">
+  </div>
+    </form>
+    </div>
+    
+  </body>
+</html>
