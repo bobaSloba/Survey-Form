@@ -1,0 +1,113 @@
+body {
+  font-family:Courier New;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;
+  background:#41efff;
+}
+
+label {
+  display:flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5 rem;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+  background: #ffd341;
+}
+
+@media (min-width: 576px) {
+  .container{
+    max-width:720px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container{
+    ,ax-width: 720px;
+  }
+}
+
+.header {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+}
+
+p {
+  font-size: 1.125rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+h1{
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+input, button, select, textarea {
+  margin:0 ;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+}
+
+.submit {
+  display: block;
+  width: 96.5%;
+  padding: 0.75rem;
+  background: #ff4197;
+  color: inherit;
+  cursor: pointer;
+  
+}
+
+textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4)
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #ff4197;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+.radio {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
